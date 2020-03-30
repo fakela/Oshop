@@ -77,7 +77,7 @@ module.exports = merge(baseConfig, {
     // new webpack.optimize.ModuleConcatenationPlugin(),
     // generate service worker
     new workboxPlugin.GenerateSW({
-      cacheId: 'favour-ecommerce-app', // change this
+      cacheId: 'oshop-4118e', // change this
       swDest: 'sw.js',
       navigateFallback: '/index.html',
       navigateFallbackWhitelist: [ /^\/[^\_]+\/?/ ],
